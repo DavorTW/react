@@ -1,4 +1,5 @@
 import {fragment} from 'react';
+import PropTypes from 'prop-types';
 
 const newMessage = {
     message: 'Hola mundo',
@@ -23,3 +24,7 @@ export const FirstApp = ({title}) => {
   )
 }
 
+
+FirstApp.propTypes = {
+  title: PropTypes.string.isRequired,
+}
