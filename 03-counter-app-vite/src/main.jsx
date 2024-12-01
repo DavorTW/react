@@ -5,9 +5,11 @@ import ReactDOM from 'react-dom/client';
 //import Student from './Student';
 import CounterApp from './CounterApp';
 import './styles.css';
+import { FirstApp } from './FirstApp';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
-        <CounterApp value={0}/>
+        {/* <CounterApp value={0}/> */}
+        {<FirstApp/>}
     </React.StrictMode>
 );
